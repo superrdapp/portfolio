@@ -38,6 +38,14 @@ export default defineAppConfig({
 	],
 	experience: [
 		{
+			title: "Software Engineer at",
+			highlight: "3AM Experiences",
+			date: "Dec 2024 - Present",
+			stack: ["Full Stack", "Luau", "Git", "Rojo", "Lune"],
+			description:
+				"Developing and implementing engaging new features and content for several popular Roblox games, including multiple tower defense titles averaging 10,000 concurrent users. Collaborating with cross-functional teams to design innovative gameplay mechanics, optimize performance, and enhance player retention.",
+		},
+		{
 			title: "Programmer at",
 			highlight: "Bulk Games",
 			link: "https://www.linkedin.com/company/bulkgames/",
@@ -49,7 +57,7 @@ export default defineAppConfig({
 		{
 			title: "Lead Programmer at",
 			highlight: "Pillar's Edge",
-			link: "https://www.roblox.com/groups/12093164",
+			link: "https://www.roblox.com/communities/12093164",
 			date: "Jun 2022 - Oct 2023",
 			stack: [
 				"Full Stack",
@@ -86,91 +94,23 @@ export default defineAppConfig({
 	],
 	projects: [
 		{
-			title: "MDWave",
+			title: "VFX Editor",
 			description:
-				"MDWave is a front-end for Moonwave, a documentation parser for Luau, built with VitePress, Vue, Tailwind and JavaScript.",
-			stack: ["Vue", "Tailwind", "JavaScript"],
-			image: "mdwave.png",
-			buttons: [
-				{
-					text: "GitHub",
-					link: "https://github.com/VirtualButFake/mdwave",
-					icon: "simple-icons:github",
-					class: "transition-self",
-				},
-				{
-					text: "View documentation",
-					link: "https://docs.tijne.net/mdwave/",
-					class: "transition-self dark:bg-primary-500/30 hover:dark:bg-primary-500/40 dark:ring-primary-600 hover:dark:ring-primary-500",
-				},
-			],
-		},
-		{
-			title: "CodeSpan",
-			description:
-				"codespan-lune allows you to create beautiful diagnostics for your Lune applications, based on the original library for Rust.",
-			stack: ["Lune"],
-			image: "diagnostics.png",
-			buttons: [
-				{
-					text: "GitHub",
-					link: "https://github.com/VirtualButFake/codespan-lune",
-					icon: "simple-icons:github",
-					class: "transition-self",
-				},
-				{
-					text: "View documentation",
-					link: "https://docs.tijne.net/codespan/",
-					class: "transition-self dark:bg-primary-500/30 hover:dark:bg-primary-500/40 dark:ring-primary-600 hover:dark:ring-primary-500",
-				},
-			],
-		},
-		{
-			title: "Fusion Autocomplete",
-			description:
-				"Fusion Autocomplete is a Visual Studio Code extension that adds autocomplete support for Fusion, autocompleting class names, properties, functions and function parameters.",
-			stack: ["TypeScript"],
-			buttons: [
-				{
-					text: "GitHub",
-					link: "https://github.com/VirtualButFake/fusion-autocomplete",
-					icon: "simple-icons:github",
-					class: "transition-self",
-				},
-				{
-					text: "Visual Studio Marketplace",
-					link: "https://marketplace.visualstudio.com/items?itemName=Virtual.fusionautocomplete",
-					icon: "simple-icons:visualstudiocode",
-					class: "transition-self bg-white dark:bg-[#046aba] dark:hover:bg-[#055ea3] dark:text-white",
-				},
-			],
-		},
-		{
-			title: "zap-vscode",
-			description:
-				"A Visual Studio Code extension that provides syntax highlighting and intellisense for the Zap IDL. Designed to mimic the Luau Language Server, it provides a seamless experience for Zap developers.",
-			stack: ["TypeScript"],
+				"An all-in-one VFX editor for Roblox, built with Fusion and FusionComponents. Overhauls and reimagines native features of Roblox Studio, optimizing them for efficiency and ease of use.",
+			stack: ["Fusion", "Luau"],
+			image: "vfxeditor.png",
 			buttons: [
 				{
 					text: "GitHub",
 					icon: "simple-icons:github",
 					class: "transition-self",
-					link: "https://github.com/VirtualButFake/zap-vscode",
+					link: "https://github.com/virtualbutfake/vfx-editor",
 				},
-			],
-		},
-		{
-			title: "Portfolio",
-			description:
-				"A portfolio made over the course of a few weeks, built with Nuxt, Tailwind and TypeScript. It features full dark mode support, a responsive design, and a clean, minimalistic look.",
-			stack: ["Nuxt", "Tailwind", "TypeScript"],
-			image: "portfolio.png",
-			buttons: [
 				{
-					text: "GitHub",
-					icon: "simple-icons:github",
+					text: "Roblox DevForum Post",
+					icon: "simple-icons:roblox",
 					class: "transition-self",
-					link: "https://github.com/VirtualButFake/portfolio",
+					link: "https://devforum.roblox.com/t/3103467",
 				},
 			],
 		},
@@ -195,23 +135,91 @@ export default defineAppConfig({
 			],
 		},
 		{
-			title: "VFX Editor",
+			title: "Portfolio",
 			description:
-				"An all-in-one VFX editor for Roblox, built with Fusion and FusionComponents. Overhauls and reimagines native features of Roblox Studio, optimizing them for efficiency and ease of use.",
-			stack: ["Fusion", "Luau"],
-			image: "vfxeditor.png",
+				"A portfolio made over the course of a few weeks, built with Nuxt, Tailwind and TypeScript. It features full dark mode support, a responsive design, and a clean, minimalistic look.",
+			stack: ["Nuxt", "Tailwind", "TypeScript"],
+			image: "portfolio.png",
 			buttons: [
 				{
 					text: "GitHub",
 					icon: "simple-icons:github",
 					class: "transition-self",
-					link: "https://github.com/virtualbutfake/vfx-editor",
+					link: "https://github.com/VirtualButFake/portfolio",
+				},
+			],
+		},
+		{
+			title: "zap-vscode",
+			description:
+				"A Visual Studio Code extension that provides syntax highlighting and intellisense for the Zap IDL. Designed to mimic the Luau Language Server, it provides a seamless experience for Zap developers.",
+			stack: ["TypeScript"],
+			buttons: [
+				{
+					text: "GitHub",
+					icon: "simple-icons:github",
+					class: "transition-self",
+					link: "https://github.com/VirtualButFake/zap-vscode",
+				},
+			],
+		},
+		{
+			title: "Fusion Autocomplete",
+			description:
+				"Fusion Autocomplete is a Visual Studio Code extension that adds autocomplete support for Fusion, autocompleting class names, properties, functions and function parameters.",
+			stack: ["TypeScript"],
+			buttons: [
+				{
+					text: "GitHub",
+					link: "https://github.com/VirtualButFake/fusion-autocomplete",
+					icon: "simple-icons:github",
+					class: "transition-self",
 				},
 				{
-					text: "Roblox DevForum Post",
-					icon: "simple-icons:roblox",
+					text: "Visual Studio Marketplace",
+					link: "https://marketplace.visualstudio.com/items?itemName=Virtual.fusionautocomplete",
+					icon: "simple-icons:visualstudiocode",
+					class: "transition-self bg-white dark:bg-[#046aba] dark:hover:bg-[#055ea3] dark:text-white",
+				},
+			],
+		},
+		{
+			title: "CodeSpan",
+			description:
+				"codespan-lune allows you to create beautiful diagnostics for your Lune applications, based on the original library for Rust.",
+			stack: ["Lune"],
+			image: "diagnostics.png",
+			buttons: [
+				{
+					text: "GitHub",
+					link: "https://github.com/VirtualButFake/codespan-lune",
+					icon: "simple-icons:github",
 					class: "transition-self",
-					link: "https://devforum.roblox.com/t/3103467",
+				},
+				{
+					text: "View documentation",
+					link: "https://docs.tijne.net/codespan/",
+					class: "transition-self dark:bg-primary-500/30 hover:dark:bg-primary-500/40 dark:ring-primary-600 hover:dark:ring-primary-500",
+				},
+			],
+		},
+		{
+			title: "MDWave",
+			description:
+				"MDWave is a front-end for Moonwave, a documentation parser for Luau, built with VitePress, Vue, Tailwind and JavaScript.",
+			stack: ["Vue", "Tailwind", "JavaScript"],
+			image: "mdwave.png",
+			buttons: [
+				{
+					text: "GitHub",
+					link: "https://github.com/VirtualButFake/mdwave",
+					icon: "simple-icons:github",
+					class: "transition-self",
+				},
+				{
+					text: "View documentation",
+					link: "https://docs.tijne.net/mdwave/",
+					class: "transition-self dark:bg-primary-500/30 hover:dark:bg-primary-500/40 dark:ring-primary-600 hover:dark:ring-primary-500",
 				},
 			],
 		},
