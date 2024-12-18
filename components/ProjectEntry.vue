@@ -23,26 +23,28 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex-l flex flex-row flex-wrap gap-1">
-			<UButton
-				v-for="button in item.buttons"
-				:class="button.class"
-				:to="button.link"
-				color="gray"
-				target="_blank"
+		<div class="mt-auto flex flex-col gap-2">
+			<div class="flex-l flex flex-row flex-wrap gap-1">
+				<UButton
+					v-for="button in item.buttons"
+					:class="button.class"
+					:to="button.link"
+					color="gray"
+					target="_blank"
+				>
+					<Icon v-if="button.icon" :name="button.icon" />
+					{{ button.text }}
+				</UButton>
+			</div>
+			<div
+				class="flex-l flex select-none flex-row flex-wrap place-items-center items-center gap-1"
 			>
-				<Icon v-if="button.icon" :name="button.icon" />
-				{{ button.text }}
-			</UButton>
-		</div>
-		<div
-			class="flex-l flex select-none flex-row flex-wrap place-items-center items-center gap-1"
-		>
-			<UtilBadge
-				v-for="stackItem in item.stack"
-				class="px-1"
-				:text="stackItem"
-			/>
+				<UtilBadge
+					v-for="stackItem in item.stack"
+					class="px-1"
+					:text="stackItem"
+				/>
+			</div>
 		</div>
 	</div>
 </template>

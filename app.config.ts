@@ -95,8 +95,7 @@ export default defineAppConfig({
 	projects: [
 		{
 			title: "VFX Editor",
-			description:
-				"An all-in-one VFX editor for Roblox, built with Fusion and FusionComponents. Overhauls and reimagines native features of Roblox Studio, optimizing them for efficiency and ease of use.",
+			description: `An all-in-one VFX editor for Roblox, built with Fusion and FusionComponents. Overhauls and reimagines native features of Roblox Studio, optimizing them for efficiency and ease of use. This plugin reached over 10,000 downloads in the first month after release, with a 93% approval rating.`,
 			stack: ["Fusion", "Luau"],
 			image: "vfxeditor.png",
 			buttons: [
@@ -131,6 +130,34 @@ export default defineAppConfig({
 					text: "View documentation",
 					link: "https://docs.tijne.net/fusioncomponents",
 					class: "transition-self dark:bg-primary-500/30 hover:dark:bg-primary-500/40 dark:ring-primary-600 hover:dark:ring-primary-500",
+				},
+			],
+		},
+		{
+			title: "simpoll",
+			description:
+				"A light-weight, simple bidirectional long-polling library for Roblox. Uses a TypeScript backend and connects to Roblox using a custom API, designed for stability and ease of use.",
+			stack: ["TypeScript", "Luau", "Express"],
+			buttons: [
+				{
+					text: "GitHub",
+					icon: "simple-icons:github",
+					class: "transition-self",
+					link: "https://github.com/VirtualButFake/simpoll",
+				},
+			],
+		},
+		{
+			title: "create-roblox",
+			description:
+				"A CLI tool designed to simplify the creation of Roblox projects. It features an interactive setup process that installs all necessary tools and establishes a basic project structure, helping new developers understand the concept and workflow of using external editors for Roblox development.",
+			stack: ["TypeScript"],
+			buttons: [
+				{
+					text: "GitHub",
+					icon: "simple-icons:github",
+					class: "transition-self",
+					link: "https://github.com/VirtualButFake/create-roblox",
 				},
 			],
 		},
