@@ -2,8 +2,8 @@
 	<UtilPageContent
 		:under-header="true"
 		place-items="place-items-end"
-		class="from-gray-950/75 to-gray-950/50 dark:bg-gradient-to-b"
-		id="header"
+		class="scroll-mt-[var(--header-height)] from-gray-950/75 to-gray-950/50 dark:bg-gradient-to-b"
+		id="home"
 	>
 		<h1
 			class="mb-4 font-sans text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-8xl dark:text-white"
@@ -61,7 +61,7 @@
 		</template>
 	</UtilPageContent>
 	<UtilPageContent
-		class="h-auto max-h-none min-h-min from-gray-950/50 to-gray-950/60 p-5 pt-12 dark:bg-gradient-to-b"
+		class="h-auto max-h-none min-h-min scroll-mt-[var(--header-height)] from-gray-950/50 to-gray-950/60 p-5 pt-12 dark:bg-gradient-to-b"
 		place-items="place-items-start"
 		container-class="gap-4"
 		:apply-height="false"
@@ -142,7 +142,7 @@
 		</template>
 	</UtilPageContent>
 	<UtilPageContent
-		class="h-auto max-h-none min-h-min from-gray-950/60 to-gray-950/80 p-5 pt-12 dark:bg-gradient-to-b"
+		class="h-auto max-h-none min-h-min scroll-mt-[var(--header-height)] from-gray-950/60 to-gray-950/80 p-5 pt-12 dark:bg-gradient-to-b"
 		place-items="place-items-start"
 		container-class="gap-4"
 		:apply-height="false"
@@ -169,7 +169,7 @@
 		</template>
 	</UtilPageContent>
 	<UtilPageContent
-		class="mb-16 h-auto max-h-none min-h-min from-gray-950/80 to-gray-900/20 p-5 pt-12 dark:bg-gradient-to-b"
+		class="mb-16 h-auto max-h-none min-h-min scroll-mt-[var(--header-height)] from-gray-950/80 to-gray-900/20 p-5 pt-12 dark:bg-gradient-to-b"
 		place-items="place-items-start"
 		container-class="gap-4"
 		:apply-height="false"
@@ -196,7 +196,7 @@
 		</template>
 	</UtilPageContent>
 	<UtilPageContent
-		class="to-gray-850/50 max-h-none min-h-min border-gray-400 bg-gray-100/20 from-gray-900/20 dark:border-gray-800 dark:bg-gray-900/20 dark:bg-gradient-to-b"
+		class="to-gray-850/50 max-h-none min-h-min scroll-mt-[var(--header-height)] border-gray-400 bg-gray-100/20 from-gray-900/20 dark:border-gray-800 dark:bg-gray-900/20 dark:bg-gradient-to-b"
 		:apply-height="false"
 		container-class="px-0 py-3"
 		id="footer"

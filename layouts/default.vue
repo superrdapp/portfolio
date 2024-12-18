@@ -64,7 +64,7 @@
 	const navLinks = ref([
 		{
 			name: "Home",
-			href: { path: "/", hash: "#header" },
+			href: { path: "/", hash: "#home" },
 			active: false,
 		},
 		{
