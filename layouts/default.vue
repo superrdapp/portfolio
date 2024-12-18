@@ -64,22 +64,22 @@
 	const navLinks = ref([
 		{
 			name: "Home",
-			href: { path: "/", hash: "#home" },
+			href: "#home",
 			active: false,
 		},
 		{
 			name: "About",
-			href: { path: "/", hash: "#about" },
+			href: "#about",
 			active: false,
 		},
 		{
 			name: "Experience",
-			href: { path: "/", hash: "#experience" },
+			href: "#experience",
 			active: false,
 		},
 		{
 			name: "Projects",
-			href: { path: "/", hash: "#projects" },
+			href: "#projects",
 			active: false,
 		},
 	]);
@@ -89,7 +89,7 @@
 
 	watch(y, () => {
 		navLinks.value.forEach((link) => {
-			const element = document.getElementById(link.href.hash.slice(1));
+			const element = document.getElementById(link.href.slice(1));
 
 			if (!element) return;
 

@@ -30,11 +30,13 @@
 				:to="link.link"
 				target="_blank"
 				v-motion-slide-visible-once-bottom
+				:aria-label="`Visit my ${link.name} profile`"
 			>
 				<UButton
 					color="gray"
 					class="transition-self shadow-md dark:shadow-none"
 					square
+					:aria-label="link.name"
 				>
 					<Icon :name="link.icon" size="24" />
 				</UButton>
@@ -50,11 +52,15 @@
 			<div
 				class="mx-auto flex max-w-screen-xl flex-col items-center py-1 text-center"
 			>
-				<NuxtLink :to="{ path: '/', hash: '#about' }">
+				<NuxtLink 
+					:to="{ path: '/', hash: '#about' }"
+					aria-label="Scroll to About section"
+				>
 					<Icon
 						name="i-ion-chevron-down"
 						size="32"
 						class="hover:text-primary-500 dark:hover:text-primary-400 text-gray-700 dark:text-gray-100"
+						aria-label="Scroll to About section"
 					/>
 				</NuxtLink>
 			</div>
@@ -225,12 +231,14 @@
 						v-for="link in footerLinks"
 						:to="link.link"
 						target="_blank"
+						:aria-label="`Visit my ${link.name} profile`"
 					>
 						<UButton
 							color="gray"
 							variant="ghost"
 							class="transition-self"
 							square
+							:aria-label="link.name"
 						>
 							<Icon :name="link.icon" size="24" />
 						</UButton>

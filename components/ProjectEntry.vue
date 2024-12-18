@@ -9,7 +9,7 @@
 				<img
 					:src="`/images/${item.image}`"
 					class="h-min w-[500px] rounded-md border border-gray-400 object-contain shadow dark:border-gray-800"
-					alt="Project Image"
+					:alt="`Screenshot of ${item.title} project`"
 				/>
 			</div>
 			<div>
@@ -31,13 +31,15 @@
 					:to="button.link"
 					color="gray"
 					target="_blank"
+					:aria-label="`${button.text} for ${item.title} project`"
 				>
-					<Icon v-if="button.icon" :name="button.icon" />
+					<Icon v-if="button.icon" :name="button.icon" aria-hidden="true" />
 					{{ button.text }}
 				</UButton>
 			</div>
 			<div
 				class="flex-l flex select-none flex-row flex-wrap place-items-center items-center gap-1"
+				aria-label="Technologies used"
 			>
 				<UtilBadge
 					v-for="stackItem in item.stack"
