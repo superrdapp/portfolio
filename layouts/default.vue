@@ -1,15 +1,17 @@
 <template>
 	<nav
 		class="transition-self sticky top-0 z-40 h-[var(--header-height)] w-full border-b border-gray-200 bg-white bg-opacity-80 px-3 py-4 backdrop-blur dark:border-gray-800 dark:bg-gray-950 dark:bg-opacity-80"
+		aria-label="Main navigation"
 	>
 		<div
 			class="mx-auto flex max-w-7xl flex-row place-items-center justify-between md:px-8"
 		>
 			<div class="flex items-center lg:flex-1">
-				<NuxtLink to="/" class="flex h-max items-center gap-3">
+				<NuxtLink to="/" class="flex h-max items-center gap-3" aria-label="Go to homepage">
 					<nuxt-icon
 						name="logo"
 						class="transition-self text-primary text-center text-[1.5em]"
+						aria-hidden="true"
 					/>
 					<p
 						class="text-2xl font-bold text-gray-700 dark:text-gray-50"
@@ -32,6 +34,7 @@
 					<NuxtLink
 						to="https://github.com/VirtualButFake/Portfolio"
 						target="_blank"
+						aria-label="View portfolio source code on GitHub"
 					>
 						<UButton
 							icon="i-grommet-icons-github"
@@ -39,6 +42,7 @@
 							class="transition-self p-1 dark:ring-0"
 							variant="ghost"
 							square
+							aria-label="GitHub"
 						/>
 					</NuxtLink>
 				</UTooltip>
@@ -51,7 +55,7 @@
 					}"
 					text="Toggle site theme"
 				>
-					<UtilThemeToggle class="transition-self p-1 dark:ring-0" />
+					<UtilThemeToggle class="transition-self p-1 dark:ring-0" aria-label="Toggle dark/light theme" />
 				</UTooltip>
 				<NavMenu :links="navLinks" />
 			</div>

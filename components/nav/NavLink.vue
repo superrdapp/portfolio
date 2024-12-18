@@ -17,7 +17,7 @@
 <script setup>
 	const props = defineProps({
 		to: {
-			type: Object,
+			type: String,
 			default: "/",
 		},
 		textClass: {

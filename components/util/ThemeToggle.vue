@@ -4,15 +4,23 @@
 			:icon="isDark ? 'i-ic-round-wb-sunny' : 'i-ic-round-dark-mode'"
 			color="gray"
 			variant="ghost"
-			aria-label="Theme"
+			:aria-label="
+				isDark ? 'Switch to light theme' : 'Switch to dark theme'
+			"
 			@click="isDark = !isDark"
 			:class="class"
 			square
+			role="switch"
+			:aria-checked="isDark"
 		/>
 		<template #fallback>
 			<!-- this will be rendered on server side -->
-			<div class="h-7 w-7 p-1">
-				<UIcon class="h-5 w-5 text-gray" name="i-ic-round-wb-sunny" />
+			<div class="h-7 w-7 p-1" role="presentation">
+				<UIcon
+					class="text-gray h-5 w-5"
+					name="i-ic-round-wb-sunny"
+					aria-hidden="true"
+				/>
 			</div>
 		</template>
 	</ClientOnly>
@@ -24,9 +32,9 @@
 	const isDark = computed({
 		get: () => mode.value === "dark",
 		set: (value) => {
-            mode.value = value ? "dark" : "light";
-            mode.preference = value ? "dark" : "light"; // this has to be done in order to ensure that header links don't reset the theme
-        },
+			mode.value = value ? "dark" : "light";
+			mode.preference = value ? "dark" : "light"; // this has to be done in order to ensure that header links don't reset the theme
+		},
 	});
 
 	defineProps({
