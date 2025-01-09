@@ -39,7 +39,7 @@ export default defineAppConfig({
 	experience: [
 		{
 			title: "Software Engineer at",
-			highlight: "3AM Experiences",
+			highlight: "Stealth Studios",
 			date: "Dec 2024 - Present",
 			stack: ["Full Stack", "Luau", "Git", "Rojo", "Lune"],
 			description:
