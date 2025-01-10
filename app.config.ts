@@ -41,9 +41,20 @@ export default defineAppConfig({
 			title: "Software Engineer at",
 			highlight: "Stealth Studios",
 			date: "Dec 2024 - Present",
-			stack: ["Full Stack", "Luau", "Git", "Rojo", "Lune"],
+			stack: [
+				"Full Stack",
+				"Luau",
+				"Git",
+				"Rojo",
+				"Lune",
+				"TypeScript",
+				"Fastify",
+				"Prisma",
+				"PostgreSQL",
+				"Java",
+			],
 			description:
-				"Developing and implementing engaging new features and content for several popular Roblox games, including multiple tower defense titles averaging 10,000 concurrent users. Collaborating with cross-functional teams to design innovative gameplay mechanics, optimize performance, and enhance player retention.",
+				"Contributed to the development and implementation of engaging new features and content for popular Roblox games, including multiple tower defense titles averaging 10,000 concurrent users. Collaborated with cross-functional teams to design innovative gameplay mechanics, optimize performance, and enhance player retention. Played a key role in developing and integrating Stealth SDK, an open-source AI framework for interactive NPCs, widely adopted across games averaging 20,000 concurrent users and interacting with over 4 million players daily.",
 		},
 		{
 			title: "Programmer at",
