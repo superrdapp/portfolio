@@ -11,96 +11,62 @@ export default defineAppConfig({
 	links: [
 		{
 			icon: "simple-icons:github",
-			link: "https://github.com/VirtualButFake",
+			link: "https://github.com/superrdapp",
 		},
 		{
 			icon: "i-grommet-icons-linkedin-option",
-			link: "https://www.linkedin.com/in/tijn-epema-532a87285/",
+			link: "https://www.linkedin.com/in/muhammmad-rifqi-daffa-ulhaq-9b9301260/",
 		},
 	],
 	footerLinks: [
 		{
 			icon: "simple-icons:github",
-			link: "https://github.com/VirtualButFake",
+			link: "https://github.com/superrdapp",
 		},
 		{
 			icon: "i-grommet-icons-linkedin-option",
-			link: "https://www.linkedin.com/in/tijn-epema-532a87285/",
+			link: "https://www.linkedin.com/in/muhammmad-rifqi-daffa-ulhaq-9b9301260/",
 		},
 		{
 			icon: "simple-icons:discord",
-			link: "https://discord.com/users/196222566195658752",
+			link: "https://discord.com/users/804233246694572032",
 		},
 		{
 			icon: "ic:round-email",
-			link: "mailto:tijn.epema@gmail.com",
+			link: "mailto:mrdaul09@gmail.com",
 		},
 	],
 	experience: [
 		{
-			title: "Software Engineer at",
-			highlight: "Stealth Studios",
+			title: "Frontend Engineer at",
+			highlight: "Suteki Technology",
+			link: "https://suteki.co.id/",
 			date: "Dec 2024 - Present",
 			stack: [
-				"Full Stack",
-				"Luau",
+				"Frontend",
+				"Vue",
 				"Git",
-				"Rojo",
-				"Lune",
+				"Nuxt",
+				"Tailwind",
 				"TypeScript",
-				"Fastify",
-				"Prisma",
-				"PostgreSQL",
-				"Java",
+				"Agile",
 			],
 			description:
-				"Contributed to the development and implementation of engaging new features and content for popular Roblox games, including multiple tower defense titles averaging 10,000 concurrent users. Collaborated with cross-functional teams to design innovative gameplay mechanics, optimize performance, and enhance player retention. Played a key role in developing and integrating Stealth SDK, an open-source AI framework for interactive NPCs, widely adopted across games averaging 20,000 concurrent users and interacting with over 4 million players daily.",
-		},
-		{
-			title: "Programmer at",
-			highlight: "Bulk Games",
-			link: "https://www.linkedin.com/company/bulkgames/",
-			date: "Oct 2023 - July 2024",
-			stack: ["Full Stack", "Luau", "Git", "Rojo", "Lune"],
-			description:
-				"Developed user-facing interactive components, improved UI/UX, implemented responsive NPC controllers, and enhanced the studio's workflow by integrating a package manager, adding tools like Aftman and continuous integration, and optimizing processes.",
-		},
-		{
-			title: "Lead Programmer at",
-			highlight: "Pillar's Edge",
-			link: "https://www.roblox.com/communities/12093164",
-			date: "Jun 2022 - Oct 2023",
-			stack: [
-				"Full Stack",
-				"Luau",
-				"Fusion",
-				"TypeScript",
-				"Project Management",
-				"Git",
-				"Rojo",
-				"Husky",
-				"Security",
-			],
-			description:
-				"Led development of large-scale projects, established a developer-friendly workflow with Git and Rojo, created custom tooling to optimize processes, wrote optimized code managing thousands of entities, and designed responsive UI/UX using Fusion.",
-		},
-		{
-			title: "Programmer and Project Lead at",
-			highlight: "Octa Studios",
-			link: "https://www.linkedin.com/company/octa-studios/",
-			date: "Oct 2020 - Aug 2021",
-			stack: ["Full Stack", "Luau", "Project Management"],
-			description:
-				"Managed a large team of cross-functional developers on several projects, wrote robust backend code and game optimizations, redesigned the game's interface, and re-evaluated its UX.",
+				"Contributed to the development and implementation of exciting new features and content for the campus governance system. Collaborate with cross-functional teams to design innovative feature mechanisms, optimize performance, and enhance user experience.",
 		},
 		{
 			title: "Intern at",
-			highlight: "CoderDojo",
-			link: "https://www.linkedin.com/company/coderdojo/",
-			date: "Jan 2020 - Jun 2020",
-			stack: ["Scratch", "Python"],
+			highlight: "DiCoding",
+			link: "https://www.dicoding.com/",
+			date: "Aug 2023 - Des 2023",
+			stack: [
+				"Javascript",
+				"Module Bundlers",
+				"Web Components",
+				"Web API",
+			],
 			description:
-				"Helped attendees aged 7-17 grasp fundamental coding principles through Scratch and Python during programming workshops, teaching them problem solving skills and guiding them through the process of creating their own projects and exploring the concepts behind them.",
+				"Develop websites with simple, reusable, and optimized techniques. Finally, it can create front-end web applications with ES6 standard JavaScript code, implement Web Components, module bundlers, and display dynamic data from the Web API using asynchronous request techniques.",
 		},
 	],
 	projects: [
@@ -265,12 +231,6 @@ export default defineAppConfig({
 	skills: {
 		languages: [
 			{
-				name: "Luau",
-				icon: "luau",
-				iconClass: "mb-0 fill-[#00A2FF]",
-				link: "https://luau-lang.org/",
-			},
-			{
 				name: "TypeScript",
 				icon: "simple-icons:typescript",
 				iconClass: "mb-0 text-[#00A2FF]",
@@ -281,16 +241,6 @@ export default defineAppConfig({
 				icon: "simple-icons:javascript",
 				iconClass: "mb-0 text-[#fae034] dark:text-[#F0DB4F]",
 				divClass: "bg-[#323330]",
-			},
-			{
-				name: "C#",
-				icon: "simple-icons:csharp",
-				iconClass: "mb-0 text-[#9B4F96]",
-			},
-			{
-				name: "C++",
-				icon: "simple-icons:cplusplus",
-				iconClass: "mb-0 text-[#5E97D0] dark:text-[#0671c2]",
 			},
 		],
 		frameworks: [
@@ -309,57 +259,6 @@ export default defineAppConfig({
 				icon: "simple-icons:tailwindcss",
 				iconClass: "mb-0 text-[#38bdf8] dark:text-[#38B2AC]",
 			},
-			{
-				name: "React",
-				icon: "simple-icons:react",
-				iconClass: "mb-0 text-[#087EA4] dark:text-[#149ECA]",
-			},
-			{
-				name: "MongoDB",
-				icon: "simple-icons:mongodb",
-				iconClass: "mb-0 text-[#4DB33D] dark:text-[#4DB33D]",
-			},
-			{
-				name: "MySQL",
-				icon: "simple-icons:mysql",
-				iconClass: "mb-0 text-[#4479A1] dark:text-[#4479A1]",
-			},
-			{
-				name: "Knex",
-				icon: "simple-icons:knexdotjs",
-				iconClass: "mb-0 text-[#E16426] dark:text-[#E16426]",
-			},
-			{
-				name: "PostgreSQL",
-				icon: "simple-icons:postgresql",
-				iconClass: "mb-0 text-[#336791] dark:text-[#336791]",
-			},
-			{
-				name: "Sequelize",
-				icon: "simple-icons:sequelize",
-				iconClass: "mb-0 text-[#52B0E7] dark:text-[#52B0E7]",
-			},
-			{
-				name: "Express",
-			},
-			{
-				name: "Fusion",
-				icon: "fusion",
-				iconClass: "mb-0 text-gray-600 dark:text-white",
-				link: "https://elttob.uk/Fusion/0.2/",
-			},
-			{
-				name: "Roact",
-				link: "https://github.com/Roblox/roact/",
-			},
-			{
-				name: "React-Lua",
-				link: "https://github.com/roblox/react-lua",
-			},
-			{
-				name: "Rodux",
-				link: "https://github.com/Roblox/rodux",
-			},
 		],
 		tooling: [
 			{
@@ -373,29 +272,9 @@ export default defineAppConfig({
 				iconClass: "mb-0",
 			},
 			{
-				name: "Docker",
-				icon: "simple-icons:docker",
-				iconClass: "mb-0 text-[#2496ED] dark:text-[#2496ED]",
-			},
-			{
 				name: "NodeJS",
 				icon: "simple-icons:nodedotjs",
 				iconClass: "mb-0 text-[#339933] dark:text-[#339933]",
-			},
-			{
-				name: "Rojo",
-				icon: "rojo",
-				iconClass: "mb-0 text-red-500 dark:text-[#DA2420]",
-			},
-			{
-				name: "roblox-ts",
-				icon: "roblox-ts",
-				iconClass: "mb-0 text-[#E2241A]",
-			},
-			{
-				name: "Lune",
-				icon: "lune",
-				iconClass: "mb-0 text-[#c848e9]",
 			},
 		],
 	},

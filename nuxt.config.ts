@@ -20,7 +20,7 @@ export default defineNuxtConfig({
 	},
 	app: {
 		head: {
-			title: "Tijn Epema",
+			title: "Daffa Ulhaq",
 			htmlAttrs: {
 				lang: "en",
 			},

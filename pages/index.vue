@@ -6,23 +6,23 @@
 		id="home"
 	>
 		<h1
-			class="mb-4 font-sans text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-8xl dark:text-white"
+			class="mb-4 font-sans text-4xl font-bold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-8xl"
 			v-motion-slide-visible-once-bottom
 		>
-			Tijn Epema
+			Daffa Ulhaq
 		</h1>
 		<p
 			class="text-primary mb-8 text-lg font-normal sm:px-16 lg:px-48 lg:text-2xl"
 			v-motion-slide-visible-once-bottom
 		>
-			Full-stack (game) developer
+			Front-end (web) developer
 		</p>
 		<p
-			class="mb-8 text-lg font-normal text-gray-700 drop-shadow-sm sm:px-16 lg:px-48 lg:text-xl dark:text-gray-300 dark:drop-shadow-none"
+			class="mb-8 text-lg font-normal text-gray-700 drop-shadow-sm dark:text-gray-300 dark:drop-shadow-none sm:px-16 lg:px-48 lg:text-xl"
 			v-motion-slide-visible-once-bottom
 		>
-			I'm an experienced software engineer based in the Netherlands,
-			specializing in game development, design and security.
+			I'm an experienced Front-end web engineer based in the Indonesia,
+			specializing in web development.
 		</p>
 		<div class="flex items-center gap-1">
 			<NuxtLink
@@ -52,7 +52,7 @@
 			<div
 				class="mx-auto flex max-w-screen-xl flex-col items-center py-1 text-center"
 			>
-				<NuxtLink 
+				<NuxtLink
 					:to="{ path: '/', hash: '#about' }"
 					aria-label="Scroll to About section"
 				>
@@ -85,34 +85,31 @@
 				class="transition-self flex-1 rounded-md border border-gray-300 bg-white px-6 py-4 drop-shadow-lg hover:border-gray-200 hover:bg-white/95 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:border-gray-700 dark:hover:bg-gray-800/30"
 			>
 				<p class="text-primary mb-4 text-xl font-bold">Who am I?</p>
-				<p class="text-left text-gray-700 dark:text-gray-300/90">
-					Back in 2013 (when I was just 8!), I discovered Roblox,
-					which piqued my interest in game development and
-					programming. I started off slowly with Lua, which is used to
-					develop games inside the Roblox game engine, and ended up
-					diving deeper and deeper into the rabbit hole of game
-					development.
+				<p class="text-justify text-gray-700 dark:text-gray-300/90">
+					I am a Front-End Engineer specializing in modern web
+					development, with a strong focus on building
+					high-performance, component-based user interfaces. My core
+					expertise lies in the Vue 3 and Nuxt ecosystem, enabling me
+					to create responsive, interactive, and scalable
+					applications. I leverage the Composition API and modular
+					architecture to deliver clean and maintainable codebases.
 					<br />
 					<br />
-					As I grew older, my curiosity led me to explore other topics
-					like reverse engineering, security, parsers, and web
-					development. Along the way, I also became fascinated by
-					UI/UX design and this has ultimately shaped a lot of what I
-					do today.
+					To build consistent and visually appealing UI/UX, I rely on
+					Tailwind CSS as my primary styling framework. I also use
+					TypeScript to enhance code quality with strong typing,
+					leading to improved developer productivity and reduced bugs.
+					These technologies allow me to develop front-end solutions
+					that are efficient, reliable, and production-ready.
 					<br />
 					<br />
-					This evolving interest has been a driving force behind my
-					nearly 9 years of hands-on experience in Roblox development.
-					I've left a notable footprint in the Roblox open-source
-					community, primarily with libraries and tools aimed at
-					standalone usage of Luau.
-					<br />
-					<br />
-					While my roots are in Roblox, I've broadened my horizons,
-					gaining experience in both frontend and backend development,
-					which is how this site came to be! I'm currently pursuing a
-					bachelor in Software Engineering at NHL Stenden, from which
-					I'm expected to graduate in 2027.
+					I am experienced in working within Agile and Scrum
+					environments, participating in daily stand-ups, sprint
+					planning, and retrospectives. Collaborating closely with
+					cross-functional teams—including backend developers,
+					designers, and stakeholders—is a key part of my workflow to
+					ensure the delivery of features that align with business
+					goals and provide excellent user experiences.
 				</p>
 			</div>
 			<div
@@ -174,7 +171,7 @@
 			/>
 		</template>
 	</UtilPageContent>
-	<UtilPageContent
+	<!-- <UtilPageContent
 		class="mb-16 h-auto max-h-none min-h-min scroll-mt-[var(--header-height)] from-gray-950/80 to-gray-900/20 p-5 pt-12 dark:bg-gradient-to-b"
 		place-items="place-items-start"
 		container-class="gap-4"
@@ -200,7 +197,7 @@
 				opacity="opacity-20"
 			/>
 		</template>
-	</UtilPageContent>
+	</UtilPageContent> -->
 	<UtilPageContent
 		class="to-gray-850/50 max-h-none min-h-min scroll-mt-[var(--header-height)] border-gray-400 bg-gray-100/20 from-gray-900/20 dark:border-gray-800 dark:bg-gray-900/20 dark:bg-gradient-to-b"
 		:apply-height="false"
@@ -218,7 +215,7 @@
 					<span class="text-blue-600 dark:text-blue-500">
 						Tailwind CSS
 					</span>
-					by Tijn Epema
+					Thanks to Tijn Epema
 				</p>
 				<p class="mb-1">
 					Coded in

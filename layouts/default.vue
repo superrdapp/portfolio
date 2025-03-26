@@ -7,16 +7,20 @@
 			class="mx-auto flex max-w-7xl flex-row place-items-center justify-between md:px-8"
 		>
 			<div class="flex items-center lg:flex-1">
-				<NuxtLink to="/" class="flex h-max items-center gap-3" aria-label="Go to homepage">
-					<nuxt-icon
+				<NuxtLink
+					to="/"
+					class="flex h-max items-center gap-3"
+					aria-label="Go to homepage"
+				>
+					<!-- <nuxt-icon
 						name="logo"
 						class="transition-self text-primary text-center text-[1.5em]"
 						aria-hidden="true"
-					/>
+					/> -->
 					<p
 						class="text-2xl font-bold text-gray-700 dark:text-gray-50"
 					>
-						Tijn Epema
+						Daffa Ulhaq
 					</p>
 				</NuxtLink>
 			</div>
@@ -55,7 +59,10 @@
 					}"
 					text="Toggle site theme"
 				>
-					<UtilThemeToggle class="transition-self p-1 dark:ring-0" aria-label="Toggle dark/light theme" />
+					<UtilThemeToggle
+						class="transition-self p-1 dark:ring-0"
+						aria-label="Toggle dark/light theme"
+					/>
 				</UTooltip>
 				<NavMenu :links="navLinks" />
 			</div>
@@ -81,11 +88,11 @@
 			href: "#experience",
 			active: false,
 		},
-		{
-			name: "Projects",
-			href: "#projects",
-			active: false,
-		},
+		// {
+		// 	name: "Projects",
+		// 	href: "#projects",
+		// 	active: false,
+		// },
 	]);
 
 	const { height } = useWindowSize();
@@ -108,8 +115,8 @@
 	});
 
 	useSeoMeta({
-		title: "Tijn Epema",
-		ogTitle: "Tijn Epema",
+		title: "Daffa Ulhaq",
+		ogTitle: "Daffa Ulhaq",
 		description: "My portfolio website.",
 		ogDescription: "My portfolio website.",
 		themeColor: "#9683EC",
